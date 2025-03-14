@@ -238,3 +238,34 @@
     font-size: 1rem;
   }
 }
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Make sure all elements fit within the screen */
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ensure images and iframes are responsive */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fix any elements that might be pushing the width */
+.container, .wrapper, .content {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Adjust padding/margins if needed */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
