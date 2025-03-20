@@ -1,0 +1,350 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .hero_area .hero_bg_box {
+    display: flex;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 0px 0px;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: flex;
+  }
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 10px;
+    margin-top: 10px;}
+   
+    
+  }
+  /* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .slider_section .detail-box {
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .slider_section .detail-box h1 {
+      font-size: 10px;
+   
+  }
+
+  .slider_section .detail-box p {
+      font-size: 10px;
+  
+}
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+}
+
+layout_padding {
+  padding: 60px 0;
+}
+
+.layout_padding2 {
+  padding: 60px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 60px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 60px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+
+..service_section .box .img-box {
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;  /* Set to 100px */
+  height: 100px; /* Set to 100px */
+}
+
+.service_section .box .img-box img {
+  width: 100%;  /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover;  /* Maintain aspect ratio while covering the container */
+}
+
+/* Responsive CSS */
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+    text-align: justify;
+    padding: 40px;
+  }
+
+  .service_section .box .img-box {
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+  }
+
+  .service_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 376px) {
+  /* Customize for smaller screens if needed */
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .service_section .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service_section .box .img-box {
+    justify-content: center;
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+  }
+
+  .service_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .service_section .box .detail-box h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service_section {
+    padding: 40px;
+  }
+
+  .service_section .box {
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .service_section .box .img-box {
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+  }
+
+  .service_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .service_section .box .detail-box h5 {
+    font-size: 15px;
+  }
+
+  .service_section .btn-box a {
+    padding: 8px 30px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service_section {
+    padding: 5px;
+  }
+
+  .service_section .box {
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .service_section .box .img-box {
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+  }
+
+  .service_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .service_section .box .detail-box h5 {
+    font-size: 0.9rem;
+  }
+
+  .service_section .btn-box a {
+    padding: 6px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+.service_section .box .detail-box h5 {
+  font-size: 18px; /* Adjust as needed */
+  line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+  .why_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .why_section .box .img-box {
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .why_section .box {
+    flex-direction: column;
+    text-align: inherit;
+  }
+
+  .why_section .box .img-box {
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+    min-width: 100px;
+    min-height: 100px;
+    margin: 0 auto 15px auto;
+  }
+
+  .why_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .why_section .box h5 {
+    font-size: 15px;
+  }
+
+  .why_section .box p {
+    font-size: 15px;
+  }
+
+  .why_section .btn-box a {
+    padding: 8px 30px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why_section .box h5 {
+    font-size: 25px;
+  }
+
+  .why_section .box p {
+    font-size: 15px;
+  }
+
+  .why_section .btn-box a {
+    padding: 6px 20px;
+    font-size: 15px;
+  }
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y:scroll
+  width: 100%;}
+ 
+
+/* Ensure images and iframes are responsive to the screen size */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;/*or 'cover' based on your need*/
+}
+
+/* Fix any elements that might be pushing the width */
+.container, .wrapper, .content {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Adjust padding/margins if needed */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
